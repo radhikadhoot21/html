@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: azure;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color:purple;
+    margin: 20px;
+    border: 2px solid white;
+    display: inline-block;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    justify-items: center;
+    height: 500px;
+}
+
+#box-1{
+    position: sticky;
+    top: 0px;
+}
